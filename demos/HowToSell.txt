@@ -1,0 +1,5 @@
+Useful for diagnostics 
+Useful for allocation of resources on a state level 
+Useful for predicting expenditure as a function of time -- as a consequence of climate change 
+Good machine learning project because many complex factors which determine i.e. weather in the summer two years ago etc etc. 
+Say that we have 25 columns od Temp, precipitation etc.
