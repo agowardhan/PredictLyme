@@ -6,6 +6,7 @@ How much money would a Lyme disease vaccine make?
 Quantify the impact of climate change? 
 How much money does it cost people? 
 
+Predict market share 
 Use case for state govts: 
 	Allocate money and resources on a state level 
 	Legislate insurance coverage -- 
@@ -14,6 +15,19 @@ Use case for state govts:
 Use case for doctors: 
 	Recommend vaccines?  
 	Diagnose based on expected rate of increase 
+
+
+
+Average cost of lyme disease per person -- projected cost of Lyme disease 
+what resources do we need for people 
+how many days of hospital time 
+Confidence intervals and how much is it going to cost 
+Forecost of the cost in each county 
+
+How far ahead do we want to forecast? 
+1 fiscal year or 2 fiscal year -- see what works by using data from the last couple of years 
+Moving window 
+hwo far into teh future can I predict 
 
 -------------------------------
 
