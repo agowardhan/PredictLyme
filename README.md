@@ -28,11 +28,12 @@ Some of our data is annual eg. the cases per year, while other, such as the land
 
 ## Costs associated with Lyme disease 
 
-http://danielcameronmd.com/lyme-disease-can-cost-billions/
-https://www.lymedisease.org/lymepolicywonk-costs-75billion/
-https://www.hhs.gov/ash/advisory-committees/tickbornedisease/meetings/2018-07-24/written-public-comment/index.html
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5872223/
-https://www.jhsph.edu/news/news-releases/2015/lyme-disease-costs-more-than-one-billion-dollars-per-year-to-treat-study-finds.htmlhttps://journals.plos.org/plosone/article?id=10.1371/journal.pone.0116767
+- http://danielcameronmd.com/lyme-disease-can-cost-billions/
+- https://www.lymedisease.org/lymepolicywonk-costs-75billion/
+- https://www.hhs.gov/ash/advisory-committees/tickbornedisease/meetings/2018-07-24/written-public-comment/index.html
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5872223/
+- https://www.jhsph.edu/news/news-releases/2015/lyme-disease-costs-more-than-one-billion-dollars-per-year-to-treat-study-finds.html
+- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0116767
 
 
 ## To-do
