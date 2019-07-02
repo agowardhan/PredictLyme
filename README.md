@@ -40,7 +40,7 @@ https://www.jhsph.edu/news/news-releases/2015/lyme-disease-costs-more-than-one-b
 - Incorporate hierarchical time-series along with the additional regressors. 
 - Incorporate individual models for the different classes 
 - Include the individual time-series models 
-
+<!-- 
 
 
 ## Excellent resource for time series with regressors 
@@ -65,4 +65,4 @@ https://nbviewer.jupyter.org/github/nicolasfauchereau/Auckland_Cycling/blob/mast
 # Once we have the clusters, normalize and fit and test 
 
 # for the temperature data, check how many months with temps > 45degrees 
-
+ -->
