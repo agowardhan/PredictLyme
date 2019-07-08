@@ -2,7 +2,7 @@
 
 ## TickTock
 
-Lyme disease is the fastest-growing vector borne disease in North America, and therefore a growing public health concern. TickTock is a predictive model that incorporates historical data from the CDC, historical weather and climate data, national land-cover data, and climate change models, to create predictions for the number of Lyme cases in USA on a per-county basis. It uses Facebook Prophet for the time-series prediction, resulting in a an improvement of 25% on the mean absolute percentage error 
+Lyme disease is the fastest-growing vector borne disease in North America, and therefore a growing public health concern. TickTock is a predictive model that incorporates historical data from the CDC, historical weather and climate data, national land-cover data, and climate change models, to create predictions for the number of Lyme cases in USA on a per-county basis. It uses Facebook Prophet for the time-series prediction, resulting in a an improvement of 25% on the mean absolute percentage error. It is hosted at https://ticktocklyme.herokuapp.com/
 
 ## Data 
 
@@ -40,7 +40,7 @@ Some of our data is annual eg. the cases per year, while other, such as the land
 
 - Incorporate hierarchical time-series along with the additional regressors. 
 - Incorporate individual models for the different classes 
-- Include the individual time-series models 
+- Include the individual time-series models for each county 
 <!-- 
 
 
