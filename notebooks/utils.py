@@ -123,10 +123,23 @@ def create_test_train_data(df, lastyear):
 def run_prophet(train, test): 
 
     m0 = Prophet(growth='linear', n_changepoints=1, changepoint_prior_scale=0.1, yearly_seasonality=False, weekly_seasonality=False, daily_seasonality=False)
-    m0.add_regressor('tmin', prior_scale=0.1, mode='multiplicative')
-    m0.add_regressor('tmax', prior_scale=0.1, mode='multiplicative')
-    m0.add_regressor('tavg', prior_scale=0.1, mode='multiplicative')
-    m0.add_regressor('pcpn', prior_scale=0.1, mode='multiplicative')
+#     m0.add_regressor('tmin', prior_scale=0.1, mode='multiplicative')
+#     m0.add_regressor('tmax', prior_scale=0.1, mode='multiplicative')
+    m0.add_regressor('tavg', prior_scale=0.1, mode='additive')
+    m0.add_regressor('pcpn', prior_scale=0.1, mode='additive')
+    m0.fit(train)
+
+    fcst = m0.predict(test)
+    return fcst, m0 
+
+
+def run_prophet_log(train, test): 
+
+    m0 = Prophet(growth='logistic', n_changepoints=1, changepoint_prior_scale=0.2, yearly_seasonality=False, weekly_seasonality=False, daily_seasonality=False)
+#     m0.add_regressor('tmin', prior_scale=0.02, mode='multiplicative')
+#     m0.add_regressor('tmax', prior_scale=0.02, mode='multiplicative')
+    m0.add_regressor('tavg', prior_scale=0.1, mode='additive')
+    m0.add_regressor('pcpn', prior_scale=0.02, mode='additive')
     m0.fit(train)
 
     fcst = m0.predict(test)
